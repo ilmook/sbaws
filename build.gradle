@@ -5,7 +5,7 @@ plugins { // (1)
 }
 
 group 'test.springboot'
-version '1.0.5-SNAPSHOT-'+new Date().format("yyyyMMddHHmmss")
+version '1.0.4-SNAPSHOT-'+new Date().format("yyyyMMddHHmmss")
 sourceCompatibility = 1.8
 
 repositories {
@@ -32,7 +32,7 @@ dependencies {
     implementation('org.springframework.boot:spring-boot-starter-data-jpa')
     implementation("org.mariadb.jdbc:mariadb-java-client")
     implementation('com.h2database:h2')
-    implementation('org.mariadb.jdbc:mariadb-java-client')
+    implementation('org.mariadb.jdbc:mariadb-java-client:2.6.0')
 
     implementation('org.springframework.boot:spring-boot-starter-oauth2-client') // 권한 관련
     implementation('org.springframework.session:spring-session-jdbc') // 권한 관련
