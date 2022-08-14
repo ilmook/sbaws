@@ -36,6 +36,7 @@ deploy:
     bucket: test-springboot78-build
 
     bundle_type: zip
+    key: test-springboot-webservice.zip
     application: test-springboot
     deployment_group: test-springboot_group
     region: ap-northeast-2
